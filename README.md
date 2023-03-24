@@ -6,11 +6,8 @@
 Create a `.env` file in the root directory and add following enciornemt variable
  - `PORT = 3000`
  - Inside the `src/config` folder create a new file `config.json` and then add the following piece of json.
-<<<<<<< HEAD
 `
-=======
  `
->>>>>>> e110a8cf049204060263a7aac89cb93e1427bcf9
 {
   "development": {
     "username": "<YOUR DB LOGIN NAME>",
@@ -21,11 +18,8 @@ Create a `.env` file in the root directory and add following enciornemt variable
   }
   
 }
-<<<<<<< HEAD
  `
 
- Once you have added your db config as listed above, go to the src folder from your terminal and execute npx sequelize db:create
-=======
+ - Once you have added your db config as listed above, go to the src folder from your terminal and execute npx sequelize db:create
 
- `
->>>>>>> e110a8cf049204060263a7aac89cb93e1427bcf9
+ 
