@@ -10,8 +10,8 @@ Create a `.env` file in the root directory and add following enciornemt variable
  `
 {
   "development": {
-    "username": <YOUR DB LOGIN NAME>,
-    "password": <YOUR DB PASSWORD>,
+    "username": <YOUR_DB_LOGIN_NAME>,
+    "password": <YOUR_DB_PASSWORD>,
     "database": "Flights_search_DB_Dev",
     "host": "127.0.0.1",
     "dialect": "mysql"
