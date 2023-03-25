@@ -86,9 +86,31 @@ const update =async(req,res) =>{
             message:"Not able to update a city",
             err:error
         })
-    }  
+    }
+}  
+
+    const getAll =async(req,res) =>{
+        try {
+            const response= await cityService.getAllCities(req.params.id,req.body);
+            return res.status(201).json({
+                data:response,
+                success:true,
+                message:"Successfully fetched all the cities",
+                err:{}
+    
+            })
+            }
+         catch (error) {
+            console.log(error);
+            return res.status(500).json({
+                data: {},
+                success:false,
+                message:"Not able to get the city",
+                err:error
+            })
+        } 
 }
 
 module.exports ={
-    create,update,get,destroy
-} 
+    create,update,get,destroy,getAll
+}
