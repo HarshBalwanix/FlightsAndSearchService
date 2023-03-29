@@ -4,7 +4,7 @@ const bodyParser= require("body-parser");
 const {PORT}= require('./config/serverConfig');
 const ApiRoutes =require('./routes/index');
 
-// const{Airport,City}=require('./models/index');
+// const{Airplane}=require('./models/index');
 
 const SetupAndStartServer= async ()=>{
     //create a express object
@@ -21,6 +21,7 @@ const SetupAndStartServer= async ()=>{
         {
             db.sequelize.sync({alter:true});
         }
+        
         
     });
 
