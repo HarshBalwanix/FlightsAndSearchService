@@ -23,6 +23,15 @@ Create a `.env` file in the root directory and add following enciornemt variable
 and then execute
  `npx sequelize db:migrate`
 
+## Tech Stack
+
+- **Node.js**: JavaScript runtime for server-side development
+- **Express.js**: Web application framework for Node.js
+- **Body-parser**: Middleware for parsing incoming request bodies
+- **Sequelize**: Promise-based Node.js ORM for relational databases
+- **dotenv**: Module for loading environment variables
+
+
 ## DB Design 
  - Airplane Table 
  - Flight
